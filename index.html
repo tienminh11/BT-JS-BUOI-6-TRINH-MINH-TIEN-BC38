@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- BÀI TẬP 1 -->
+    <h1>Bài tập 1</h1>
+    <h3>Sơ đồ 3 khối</h3>
+    <p>*INPUT: 1 + 2 + 3 + ... + n >10000</p>
+    <ol>
+      *PROCESS
+      <li>
+        Công thức: Đặt vòng lặp while (sum < 10000) <br />
+        Nếu thỏa điều kiện thì i tăng lên 1 và sum = sum + 1 Tới khi sum > 10000
+        thì kết thúc vòng lặp
+      </li>
+      <li>In ra kết quả</li>
+    </ol>
+    <p>*OUTPUT: số nguyên dương nhỏ nhất</p>
+    <hr />
+    <p>Tìm số nguyên dương n nhỏ nhất sao cho 1 + 2 + 3 + ... + n >10000</p>
+    <button onclick="ex1()">Kết quả</button>
+    <div id="result1"></div>
+    <script src="./main.js"></script>
+    <hr />
+    <!-- BÀI TẬP 2 -->
+    <h1>Bài tập 2</h1>
+    <h3>Sơ đồ 3 khối</h3>
+    <p>*INPUT: S(n) x x^ 2 x^ 3 x^n</p>
+    <ul>
+      *PROCESS
+      <li>Nhập vào 2 số x, n</li>
+      <li> Công thức: while (i  <= n) {  <br> 
+        number = Math.pow(x, i); <br>
+        sum += number; <br>
+        i++; <br>
+      }</li>
+      <li>In ra kết quả</li>
+    </ul>
+    <p>*OUTPUT: kết quả S(n) </S></p>
+    <hr />
+    <input type="text" placeholder="Nhập x" id="x" />
+    <input type="text" placeholder="Nhập n" id="n" />
+    <button onclick="ex2()">Kết quả</button>
+    <div id="result2"></div>
+    <hr />
+
+    <!-- BÀI TẬP 3 -->
+    <h1>Bài tập 3</h1>
+    <h3>Sơ đồ 3 khối</h3>
+    <p>*INPUT: Nhập vào số n</p>
+    <ul>
+      *PROCESS
+      <li>Nhập vào n</li>
+      <li>Công thức: for (var i = 1; i <= y; i++) {  <br>
+        sum *= i; <br>
+      }</li>
+      <li>In kết quả</li>
+    </ul>
+    <p>*OUTPUT: Giai thừa của n</p>
+    <hr />
+    <input type="text" placeholder="Nhập số y" id="y" />
+    <button onclick="ex3()">Kết quả</button>
+    <div id="result3"></div>
+    <hr />
+    <!-- BÀI TẬP 4 -->
+    <h1>Bài tập 4</h1>
+    <h3>Sơ đồ 3 khối</h3>
+    <p>*INPUT:</p>
+    <ul>
+      *PROCESS
+      <li></li>
+    </ul>
+    <p>*OUTPUT:</p>
+    <hr />
+    <button onclick="ex4()">Tạo thẻ</button>
+    <div id="blue" style="background-color: blue"></div>
+    <div style="background-color: red" id="red"></div>
+    <hr />
+
+    <!-- BÀI TẬP 5 -->
+    <h1>Bài tập 5</h1>
+    <h3>Sơ đồ 3 khối</h3>
+    <p>*INPUT:</p>
+    <ul>
+      *PROCESS
+      <li></li>
+    </ul>
+    <p>*OUTPUT:</p>
+    <hr />
+    <input type="text" placeholder="nhập số z" id="z" />
+    <button onclick="ex5()">Kết quả</button>
+    <div id="result5"></div>
+    <script src="./main.js"></script>
+  </body>
+</html>
