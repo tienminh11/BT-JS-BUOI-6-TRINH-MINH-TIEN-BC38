@@ -43,21 +43,17 @@ function ex4() {
   var i = 1;
   for (i = 1; i <= n; i++) {
     if (i % 2 === 0) {
-      tong = blue.concat(red);
+      tong = blue+ red
     }
     tong++;
   }
-
-  document.getElementById("blue").innerHTML = tong;
 }
 // BÀI TẬP 5
 function ex5() {
   var z = document.getElementById("z").value * 1;
   var squareRoot = Math.sqrt(z);
   var count = 0;
-
   var result = "";
-  while (1) {
     var number = 1;
     for (var i = 2; i <= squareRoot; i++) {
       if (z % i == 0) {
@@ -65,14 +61,5 @@ function ex5() {
         break;
       }
     }
-    if (count == 1) {
-      count++;
-      result = z;
-    }
-    if (count >= 1) {
-      break;
-    }
-    z++;
-  }
   document.getElementById("result5").innerHTML = result;
 }
